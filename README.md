@@ -1,21 +1,8 @@
-# HttpServer
+# Mocking Server
 
-**TODO: Add description**
+**An attempt to build a server that would show current stats about incoming requests, while allowing configurable responses
 
-## Installation
+The configuration should include different status codes, timeouts, as well as transformations of input params, finally randomisation of the responses.
+This is to emulate a real-life service with all its possible flaws.
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `http_server` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:http_server, "~> 0.1.0"}
-  ]
-end
-```
-
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/http_server](https://hexdocs.pm/http_server).
-
+atm (2018-04-01) it has implemented a simple templating function that takes a text file and populates placeholders according to a provided key-value map, and servers static CSS file from a specific path. All other paths are handled by the "dashboard" HTML for now.
