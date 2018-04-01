@@ -5,8 +5,6 @@
     plug :match
     plug :dispatch
 
-  import Logger
-
   get "/*path" do
 
     vars = %{title: "Mocking Server Dashboard", text: "dashboard body", footer: conn.request_path}
