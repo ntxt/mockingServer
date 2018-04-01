@@ -1,0 +1,11 @@
+<html>
+<head>
+</head>
+<body>
+<div>
+<h1>%{title}</h1>
+<p>%{text}</p>
+<small>%{footer}</small>
+</div>
+</body>
+</html>
